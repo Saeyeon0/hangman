@@ -1,0 +1,50 @@
+.hangmanContainer {
+    position: relative;
+}
+
+.hangmanUp {
+    height: 400px;
+    width: 10px;
+    background: black;
+    margin-left: 120px;
+}
+
+.hangmanBottom {
+    height: 10px;
+    width: 250px;
+    background: black;
+}
+
+.hangmanRight {
+    height: 10px;
+    width: 200px;
+    background: black;
+    margin-left: 120px;
+}
+
+.hangmanRope {
+    height: 50px;
+    width: 10px;
+    background: black;
+    margin-left: 310px;
+    position: absolute;
+}
+
+.hangmanHead {
+    height: 50px;
+    width: 50px;
+    border: 10px solid black;
+    border-radius: 100%;
+    top: 50px;
+    right: -30px;
+    position: absolute;
+}
+
+.hangmanBody {
+    height: 100px;
+    width: 10px;
+    background: black;
+    top: 120px;
+    right: 0px;
+    position: absolute;
+}
