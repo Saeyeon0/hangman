@@ -48,3 +48,47 @@
     right: 0px;
     position: absolute;
 }
+
+.hangmanRightArm {
+    height: 10px;
+    width: 100px;
+    background: black;
+    top: 150px;
+    right: -100px;
+    position: absolute;
+    rotate: -30deg;
+    transform-origin: left bottom;
+}
+
+.hangmanLeftArm {
+    height: 10px;
+    width: 100px;
+    background: black;
+    top: 150px;
+    right: 10px;
+    position: absolute;
+    rotate: 30deg;
+    transform-origin: right bottom;
+}
+
+.hangmanRightLeg {
+    height: 10px;
+    width: 100px;
+    background: black;
+    top: 210px;
+    right: -90px;
+    position: absolute;
+    rotate: 60deg;
+    transform-origin: left bottom;
+}
+
+.hangmanLeftLeg {
+    height: 10px;
+    width: 100px;
+    background: black;
+    top: 210px;
+    right:  0px;
+    position: absolute;
+    rotate: -60deg;
+    transform-origin: right bottom;
+}

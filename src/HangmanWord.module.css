@@ -1,0 +1,12 @@
+.hangmanWord {
+    display: flex;
+    gap: .25em;
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+.wordSplit {
+    border-bottom: .1em solid black;
+}
